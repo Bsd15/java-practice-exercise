@@ -35,5 +35,7 @@ public class GuessTheNumber {
                 System.out.println("Number guessed is less than original number");
             }
         }
+        /*Close the scanner*/
+        s.close();
     }
 }

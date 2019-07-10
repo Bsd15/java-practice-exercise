@@ -19,5 +19,7 @@ public class TomOrJerry {
         } else if ((number % 2 == 0) && (number >= 20 && number <= 30)) {
             System.out.println("Jerry");
         }
+        /*Close the scanner*/
+        s.close();
     }
 }

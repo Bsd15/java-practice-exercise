@@ -33,5 +33,7 @@ public class SortAndAddDigits {
         System.out.println("Sorted number: " + tempNumber);
         System.out.println("Sum of even number: " + sum);
         System.out.println((sum > 15)?"True":"False");
+        /*Close the scanner*/
+        s.close();
     }
 }

@@ -38,6 +38,7 @@ public class CharacterCheck {
         } catch (Exception e) {
             System.out.println("Please enter only one character");
         }
-
+        /*Close the scanner*/
+        s.close();
     }
 }

@@ -24,5 +24,7 @@ public class SumOfNNumbers {
                 break;
             }
         }
+        /*Close the scanner*/
+        s.close();
     }
 }

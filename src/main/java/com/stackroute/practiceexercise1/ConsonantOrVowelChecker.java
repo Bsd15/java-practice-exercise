@@ -28,5 +28,7 @@ public class ConsonantOrVowelChecker {
         } else {
             System.out.println("Please give a valid string");
         }
+        /*Close the scanner*/
+        s.close();
     }
 }

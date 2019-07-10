@@ -17,5 +17,7 @@ public class PrintForIteration {
                 System.out.print(i);
             }
         }
+        /*Close the scanner*/
+        s.close();
     }
 }
