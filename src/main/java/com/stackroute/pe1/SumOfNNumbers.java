@@ -1,4 +1,4 @@
-package com.stackroute.practiceexercise1;
+package com.stackroute.pe1;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
