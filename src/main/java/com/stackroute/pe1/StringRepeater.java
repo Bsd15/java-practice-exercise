@@ -8,20 +8,9 @@ import java.util.Scanner;
  * repeat n number of times in the output String.
  */
 public class StringRepeater {
-    public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        /*Take input from the user*/
-        System.out.print("Enter string: ");
-        String input = s.next();
+    public String repeat(String input, int number) {
         /*Initialize a string builder which is used to change the string*/
         StringBuilder output = new StringBuilder(input);
-        /*Take number from user*/
-        System.out.print("Enter number: ");
-        int number = s.nextInt();
-        while (number > input.length()) {
-            System.out.println("Please enter number less than " + input.length() + ":");
-            number = s.nextInt();
-        }
         /*Take substring from the given input string by subtracting
         the total length of the string with the given number
         */
@@ -33,8 +22,6 @@ public class StringRepeater {
         }*/
         /*For java >= 11 use these lines*/
         output.append(subString.repeat(number));
-        System.out.println(output);
-        /*Close the scanner*/
-        s.close();
+        return (output.toString());
     }
 }

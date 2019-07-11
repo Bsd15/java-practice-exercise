@@ -7,11 +7,8 @@ import java.util.Scanner;
  * A program to reverse any string without using String Buffer.
  */
 public class StringReverse {
-    public static void main(String[] args) {
+    public String stringReverse(String input) {
         Scanner s = new Scanner(System.in);
-        /*Read the input from user*/
-        System.out.print("Enter text: ");
-        String input = s.next();
         /*Convert the given string into Char array*/
         char[] inputArray = input.toCharArray();
         /*Get the length of the array*/
@@ -25,8 +22,6 @@ public class StringReverse {
         }
         /*Convert the character array into string by passing into String constructor*/
         String reversedString = new String(reverseArray);
-        System.out.println(reversedString);
-        /*Close the scanner*/
-        s.close();
+        return (reversedString);
     }
 }
